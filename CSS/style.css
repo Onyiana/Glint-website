@@ -41,6 +41,33 @@ a{
     width: 40%;
 }
 
+.hamburger{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.ri-close-circle-fill{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+
+.navlinks{
+    background-color: black;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    top: 0;
+    right: -300px;
+    height: 120vh;
+    z-index: 1;
+    transition: .5s;
+    text-align: center;
+    margin-top: -7%;
+}
+
 .intro{
     display: flex;
     justify-content: space-between;
