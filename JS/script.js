@@ -23,3 +23,9 @@ navLists.forEach((element) => {
         menuOpen.style.display = 'block'
     })
 })
+
+/*--/ Star Counter /--*/
+$('.counter').counterUp({
+    delay: 5,
+    time: 9000
+});
