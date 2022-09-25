@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="shortcut icon" href="/Images/xatom.png.pagespeed.ic.dwjCwOpoMB.webp" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/style.css">
@@ -15,7 +16,8 @@
         <div class="navbars container-fluid">
             <a href="/"><img src="/Images/download.webp" alt="logo" class="first-logo"></a>
 
-            <div class="hamburger">
+            <div class="hamburger d-flex align-items-center gap-3" >
+                <h6 style="color: #39B54A;">MENU</h6>
                 <i class="ri-menu-add-line"></i>
             </div>
 
@@ -29,7 +31,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="container intro">
+        <div  data-aos="fade-up" class="container intro">
             <h5 class="text-muted fw-bold text-sm-start text-center">WELCOME TO GLINT</h5>
             <div class="row align-items-start justify-content-between">
                 <div class="col-12 col-sm-9 text-sm-start text-center">
@@ -60,10 +62,13 @@
     <section id="firstSection">
         <div class="container firstSection-Text">
             <div class="text-center">
-                <h6 class="fw-bold" style="letter-spacing: 2px;">HELLO THERE</h6>
+                <div data-aos="fade-up" data-aos-delay="600">
+                    <h6 class="fw-bold" style="letter-spacing: 2px;">HELLO THERE</h6>
                 <h1 class="text-white display-2 fw-bold">We Are Glint</h1>
+                </div>
+                
                 <hr class="mx-auto text-white" style="margin: 50px 0; width: 50%;">
-                <p class="fs-4 text-black mx-auto" style="font-weight: 400; margin-bottom: 80px; width: 95%;">
+                <p data-aos="fade-up" data-aos-delay="800" class="fs-4 text-black mx-auto" style="font-weight: 400; margin-bottom: 80px; width: 95%;">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -71,7 +76,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
                 </p>
             </div>
-            <div class="row text-center">
+            <div data-aos="fade-up" data-aos-delay="900" class="row text-center">
                 <div class="col-lg-3 col-md-6 counting-Num">
                     <h1 class="counter text-white display-1 fw-bold">127</h1>
                     <p class="fw-bold text-black">Awards Received</p>
@@ -92,7 +97,95 @@
         </div>
     </section>
 
+    <section>
+        <div class="container secondSection">
+            <div data-aos="fade-up" data-aos-delay="200" class="text-center">
+                <h5 style="color: #39B54A; font-weight: bold; font-size: 18px;">WHAT WE DO</h5>
+                <p class="display-5 text-black fw-bold mx-auto" style="width: 90%;">
+                    We've got everything you need to launch and grow your business
+                </p>
+            </div>
+            <hr class="mx-auto text-gray" style="margin: 50px 0; width: 50%;">
+
+            <div class="d-flex align-items-center text-sm-start text-center secondSection-Text">
+                <div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-brush-4-fill" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Brand Identity</h4>
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="500">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-volume-up-fill" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Marketing</h4> 
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint. 
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="700">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-stock-fill" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Packaging Design</h4> 
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint. 
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-shape-2-line" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Illustration</h4>
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="500">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-xbox-fill" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Web Design</h4> 
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint. 
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="700">
+                        <div class="d-flex gap-3 align-items-center">
+                            <i class="ri-suitcase-fill" style="font-size: 50px; color: #39B54A;"></i>
+                            <h4 class="text-black fw-bold">Web Development</h4> 
+                        </div>
+                        <p class="text-muted" style="margin-left:70px; font-weight: 500;">
+                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. 
+                            Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. 
+                            Sunt suscipit voluptas ipsa in tempora esse soluta sint. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/JS/jquery.js"></script>
     <script src="/JS/jquery.counterup.min.js"></script>
     <script src="/JS/jquery.waypoints.min.js"></script>

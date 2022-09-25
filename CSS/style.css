@@ -19,6 +19,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbars{
@@ -105,4 +106,13 @@ a{
 
 .counting-Num{
     border-right: 1px solid rgba(255, 255, 255, 0.377) ;
+}
+
+.secondSection{
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+}
+
+.secondSection-Text{
+    gap: 70px;
 }

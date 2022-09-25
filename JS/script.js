@@ -1,3 +1,5 @@
+AOS.init();
+
 const menuOpen = document.querySelector(".ri-menu-add-line")
 const menuClose = document.querySelector(".ri-close-circle-fill")
 const navMenu = document.querySelector(".navlinks")
