@@ -116,3 +116,13 @@ a{
 .secondSection-Text{
     gap: 70px;
 }
+
+#works-img{
+    background-color: #111111;
+    height: 100vh;
+}
+
+.thirdSection{
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+}
