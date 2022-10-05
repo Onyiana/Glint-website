@@ -25,6 +25,14 @@ AOS.init({
 
 });
 
+
+/*--/ Star Counter /--*/
+$('.counter').counterUp({
+    delay: 5,
+    time: 9000
+});
+
+
 const menuOpen = document.querySelector(".ri-menu-add-line")
 const menuClose = document.querySelector(".ri-close-circle-fill")
 const navMenu = document.querySelector(".navlinks")
@@ -50,9 +58,3 @@ navLists.forEach((element) => {
         menuOpen.style.display = 'block'
     })
 })
-
-/*--/ Star Counter /--*/
-$('.counter').counterUp({
-    delay: 5,
-    time: 9000
-});
