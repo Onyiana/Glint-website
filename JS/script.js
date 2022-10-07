@@ -32,6 +32,13 @@ $('.counter').counterUp({
     time: 9000
 });
 
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+         type: 'bullets',
+      clickable:'true'
+    },
+  });
 
 const menuOpen = document.querySelector(".ri-menu-add-line")
 const menuClose = document.querySelector(".ri-close-circle-fill")

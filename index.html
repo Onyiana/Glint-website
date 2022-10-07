@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="shortcut icon" href="/Images/xatom.png.pagespeed.ic.dwjCwOpoMB.webp" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/style.css">
@@ -233,7 +234,7 @@
     </section>
 
     <section id="clients">
-        <div class="container">
+        <div class="container fourthSection">
             <div class="text-center">
                 <h6 style="color: #39B54A; font-weight: bold; font-size: 18px;">OUR CLIENTS</h6>
                 <p class="display-5 fw-bold mx-auto" style="width: 80%;">
@@ -241,7 +242,7 @@
                 </p>
             </div>
             <!-- <marquee behavior="" direction=""></marquee> -->
-            <div class=" d-flex">
+            <div class=" d-flex" style="margin-top: 5rem;">
                 <div class="">
                     <img src="/Images/xapple.png.pagespeed.ic.LRyKIqS94g.webp" style="width: 50%;"  alt="">
                 </div>
@@ -269,32 +270,36 @@
                 </div>
             </div>
             <hr class="mx-auto" style="color: rgb(98, 100, 104); margin: 50px 0; width: 50%;">
-            <div class="d-flex text-center">
-                <div>
-                    <p>
-                        Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
-                        Laudantium quia consequatur moleatias delectus culpa facerehic dolores aperiam. accusantium
-                        quos qui praesentum corpori. Excepturi nam cupiditate culpa doloremque
-                        deleniti repellat.  
-                    </p>
-                    <img src="/Images/xuser-01.jpg.pagespeed.ic.6i12ClXOQG.webp" style="border-radius: 50px; width: 16%;" alt="">
+            
+            <div class="swiper-container">
+                <div class="swiper-wrapper text-center">
+                  <div class="swiper-slide">
+                        <p class="mx-auto swiperText">
+                            Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
+                            Laudantium quia consequatur moleatias delectus culpa facerehic dolores aperiam. accusantium
+                            quos qui praesentum corpori. Excepturi nam cupiditate culpa doloremque
+                            deleniti repellat.  
+                        </p>
+                        <img src="/Images/xuser-01.jpg.pagespeed.ic.6i12ClXOQG.webp" style="border-radius: 50px; width:8%;" alt="">
+                  </div>
+                 <div class="swiper-slide">
+                        <p class="mx-auto swiperText">
+                            Excepturi nam cupiditate culpa doloremque celeniti repellat. Veniam quos repellat voluptas
+                            animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.
+                        </p>
+                        <img src="/Images/xuser-02.jpg.pagespeed.ic.T71c7D0WMQ.webp" style="border-radius: 50px; width: 8%;" alt="">
+                  </div>
+                    <div class="swiper-slide">
+                        <p class="mx-auto swiperText">
+                            Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt.
+                            Ducimus aut sed ipsam. Autem waque officia cum 
+                            exercitationenm sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                        </p>
+                        <img src="/Images/xuser-05.jpg.pagespeed.ic.APnAqT_Vqk.webp" style="border-radius: 50px; width: 8%;" alt="">
+                  </div>
                 </div>
-                <div>
-                    <p>
-                        Excepturi nam cupiditate culpa doloremque celeniti repellat. Veniam quos repellat voluptas
-                        animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.
-                    </p>
-                    <img src="/Images/xuser-02.jpg.pagespeed.ic.T71c7D0WMQ.webp" style="border-radius: 50px; width: 20%;" alt="">
-                </div>
-               <div>
-                    <p>
-                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt.
-                        Ducimus aut sed ipsam. Autem waque officia cum 
-                        exercitationenm sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                    </p>
-                    <img src="/Images/xuser-05.jpg.pagespeed.ic.APnAqT_Vqk.webp" style="border-radius: 50px; width: 20%;" alt="">
-               </div>
-                
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -302,6 +307,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/JS/jquery.js"></script>
     <script src="/JS/jquery.counterup.min.js"></script>
     <script src="/JS/jquery.waypoints.min.js"></script>
