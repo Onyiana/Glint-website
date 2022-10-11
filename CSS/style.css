@@ -157,6 +157,24 @@ a{
     color: #555555;
 }
 
+.contact-submit button{
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #39B54A;
+    color: #fff;
+}
+
+.contactSection{
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.second-logo{
+    width: 15%;
+}
+
+
 @media screen and (max-width:768px) {
     .second-SectionP{
         margin-left:0px;
