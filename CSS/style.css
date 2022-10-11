@@ -174,9 +174,28 @@ a{
     width: 15%;
 }
 
+#footerPart{
+    background-image:linear-gradient(rgba(73, 64, 64, 0.473), rgba(16, 24, 39, 0.9)) , url(/Images/xcontact-bg.jpg.pagespeed.ic.Yg-_T7iMmI.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footerEmail{
+    border:1px solid #39B54A ;
+    background-color: transparent;
+    color: #fff;
+}
 
 @media screen and (max-width:768px) {
     .second-SectionP{
         margin-left:0px;
     }
 }
+
+/* @media screen and (max-width:375px) {
+    .footerEmailBtn{
+        width: 78%;
+    }
+} */
