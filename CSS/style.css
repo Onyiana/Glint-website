@@ -16,7 +16,7 @@ a{
 }
 
 #bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 1, 3, 0.9)) ,url(/Images/hero-bg.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 1, 3, 0.945)) ,url(/Images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
