@@ -114,6 +114,10 @@ a{
     padding-bottom: 8rem;
 }
 
+.launch{
+    width: 90%;
+}
+
 .secondSection-Text{
     gap: 70px;
 }
@@ -135,9 +139,14 @@ a{
     z-index: -1;
 }
 
+.recent-works{
+    width: 80%;
+}
+
 .thirdSection{
     padding-top: 9rem;
     padding-bottom: 8rem;
+    padding-right: 3rem;
 }
 
 #clients{
@@ -148,6 +157,10 @@ a{
 .fourthSection{
     padding-top: 9rem;
     padding-bottom: 5rem;
+}
+
+.our-clients{
+    width: 80%;
 }
 
 .swiperText{
@@ -191,5 +204,46 @@ a{
 @media screen and (max-width:768px) {
     .second-SectionP{
         margin-left:0px;
+    }
+
+    .navbars{
+        padding: 40px 1rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .intro-text{
+        font-size: 25px;
+    }
+
+    .btn-intro{
+        flex-direction: column;
+    }
+
+    .navlinks{
+        margin-top: -40%;
+    }
+
+    .fs-4{
+        font-size: calc(1rem + .3vw)!important;
+    }
+
+    .launch{
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .recent-works{
+        width: 105%;
+        padding-left: 1rem;
+    }
+
+    .our-clients{
+        width: 100%;
+    }
+
+    .swiperText{
+        font-size: 18px;
+        width: 90%;
     }
 }
