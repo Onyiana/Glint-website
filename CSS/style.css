@@ -234,16 +234,6 @@ a{
     .intro-text{
         font-size: 25px;
     }
-}
-
-@media screen and (max-width:375px) {
-    .navlinks{
-        margin-top: -40%;
-    }
-
-    .fs-4{
-        font-size: calc(1rem + .3vw)!important;
-    }
 
     .launch{
         width: 100%;
@@ -262,5 +252,13 @@ a{
     .swiperText{
         font-size: 18px;
         width: 90%;
+    }
+
+    .navlinks{
+        margin-top: -40%;
+    }
+
+    .fs-4{
+        font-size: calc(1rem + .3vw)!important;
     }
 }
