@@ -226,17 +226,17 @@ a{
     .navbars{
         padding: 40px 1rem;
     }
-}
-
-@media screen and (max-width:375px) {
-    .intro-text{
-        font-size: 25px;
-    }
 
     .btn-intro{
         flex-direction: column;
     }
 
+    .intro-text{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:375px) {
     .navlinks{
         margin-top: -40%;
     }
